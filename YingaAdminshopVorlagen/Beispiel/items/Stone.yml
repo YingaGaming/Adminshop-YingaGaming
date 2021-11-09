@@ -1,0 +1,20 @@
+categorie: Gartenartickel
+
+buy: 2.0
+sell: 1.0
+
+item-icon:
+    material: STONE
+    displayname:
+    enchantments:
+    lore:
+        - Buy 2.0
+        - Sell 1.0
+    PotionType:
+
+item-get:
+    material: STONE
+    displayname:
+    enchantments:
+    lore:
+    PotionType:

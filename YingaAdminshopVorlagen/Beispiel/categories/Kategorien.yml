@@ -1,0 +1,61 @@
+name(command): Kategorien
+
+title: KATKAT
+
+item-icon:
+    material: OAK_LOG
+    displayname: §bKategorien!
+    enchantments:
+    lore:
+        -Hier gibt es alles!
+
+change-page-forward[pf]:
+    material: ARROW
+    displayname:
+    enchantments:
+    lore:
+
+change-page-back[pb]:
+    material: ARROW
+    displayname:
+    enchantments:
+        #- Enchantment,Level
+    lore:
+
+sellAll[sa]:
+    material: CHEST
+    displayname:
+    enchantments:
+    lore:
+
+close[c]:
+    material: BARRIER
+    displayname:
+    enchantments:
+    lore:
+
+blankItem[b]:
+    material: BLACK_STAINED_GLASS_PANE
+    displayname:  ' '
+    enchantments:
+        #- Enchantment,Level
+    lore:
+
+categories[ca]:
+    material: LODESTONE
+    displayname:
+    enchantments:
+        #- Enchantment,Level
+    lore:
+
+sorter[s]:
+    material: COMPASS
+    displayname:
+
+inventory:
+    - b,b,b,b,b,b,b,b,b
+    - b, , , , , , , ,b
+    - b, , , , , , , ,b
+    - b, , , , , , , ,b
+    - b, , , , , , , ,b
+    - b,b,pb,b,b,b,pf,b,b

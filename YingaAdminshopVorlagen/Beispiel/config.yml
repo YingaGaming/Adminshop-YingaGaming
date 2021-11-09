@@ -1,0 +1,19 @@
+main-categorie: Kategorien
+allItems-categorie: AllItems
+register-categories:
+    - Gartenartickel
+register-items: 
+    - Stone
+    - Wood
+    - Grass
+
+None: 'None'
+LowToHightBuy: Hight To Low Buy
+HightToLowBuy: 'Low To Hight Buy'
+LowToHightSell: 'Hight To Low Sell'
+HightToLowSell: 'Low To Hight Sell'
+AToZ: 'AtoT'
+ZToA: 'ZtoA'
+
+CollorOut: '7'
+CollorOn: '6'
