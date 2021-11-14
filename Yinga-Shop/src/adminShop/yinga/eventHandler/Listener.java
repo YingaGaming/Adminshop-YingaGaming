@@ -3,11 +3,11 @@ package adminShop.yinga.eventHandler;
 import java.util.ArrayList;
 
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.inventory.ClickType;
 import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.event.inventory.InventoryDragEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.inventory.ItemStack;
@@ -34,6 +34,12 @@ public class Listener implements org.bukkit.event.Listener{
 		Gui.sortPlayer.remove(Gui.player.indexOf(e.getPlayer()));
 		Gui.pages.remove(Gui.player.indexOf(e.getPlayer()));
 		Gui.player.remove(e.getPlayer());
+	}
+	@EventHandler
+	public void onDrag(InventoryDragEvent e) {
+		if(Categories.titls.contains(e.getView().getTitle())) {
+			e.setCancelled(true);
+		}
 	}
 	@EventHandler
 	public void onClick(InventoryClickEvent e) {

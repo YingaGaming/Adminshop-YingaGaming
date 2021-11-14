@@ -1,5 +1,5 @@
 name: YingaAdminshop
-version: 1.0
+version: 1.1
 main: adminShop.yinga.main.Main
 author: Hammerfels9
 api-version: 1.17
